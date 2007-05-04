@@ -11,6 +11,7 @@ License: BSD
 Group: System/Kernel and hardware 
 Url: http://www.peereboom.us/iogen/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires: groff-for-man
 
 %description
 Iogen is an I/O generator.
