@@ -1,12 +1,13 @@
 %define name iogen
-%define version 3.0
+%define version 3.1
 %define release %mkrel 1
+%define subversion p0
 
 Summary: A stress tool to produce heavily fragmented I/O operations
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}_%{version}.tar.bz2
+Source0: %{name}_%{version}%{subversion}.tar.bz2
 License: BSD
 Group: System/Kernel and hardware 
 Url: http://www.peereboom.us/iogen/
@@ -23,7 +24,7 @@ It is by no means meant as a performance measuring tool since it tries to
 recreate the worst case scenario I/O.
 
 %prep
-%setup -q -n %{name}_%version
+%setup -q -n %{name}_%{version}%{subversion}
 
 %build
 %make
