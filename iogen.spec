@@ -1,6 +1,6 @@
 %define name iogen
 %define version 3.1
-%define release %mkrel 5
+%define release 6
 %define subversion p0
 
 Summary: A stress tool to produce heavily fragmented I/O operations
