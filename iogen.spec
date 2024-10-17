@@ -10,7 +10,7 @@ Release: %{release}
 Source0: %{name}_%{version}%{subversion}.tar.bz2
 License: BSD
 Group: System/Kernel and hardware 
-Url: http://www.peereboom.us/iogen/
+Url: https://www.peereboom.us/iogen/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: groff-for-man
 
