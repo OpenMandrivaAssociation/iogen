@@ -12,6 +12,7 @@ License: BSD
 Group: System/Kernel and hardware 
 Url: https://www.peereboom.us/iogen/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: groff-for-man
 
 %description
